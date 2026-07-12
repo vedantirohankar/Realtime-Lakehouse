@@ -1,0 +1,4 @@
+{"commitInfo":{"timestamp":1783745793042,"operation":"STREAMING UPDATE","operationParameters":{"outputMode":"Append","queryId":"4ca2dbeb-c4b1-4f58-b97d-f4f08dc0f971","epochId":"0"},"isolationLevel":"Serializable","isBlindAppend":true,"operationMetrics":{"numRemovedFiles":"0","numOutputRows":"0","numOutputBytes":"308","numAddedFiles":"0"},"engineInfo":"Apache-Spark/3.5.8 Delta-Lake/3.2.0","txnId":"64537db2-b031-4b9f-a7c3-65c0b7659fd4"}}
+{"metaData":{"id":"fe647db9-cd3a-40f1-b65e-caf9e1a3330f","format":{"provider":"parquet","options":{}},"schemaString":"{\"type\":\"struct\",\"fields\":[{\"name\":\"json\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}}]}","partitionColumns":[],"configuration":{},"createdTime":1783745791046}}
+{"protocol":{"minReaderVersion":1,"minWriterVersion":2}}
+{"txn":{"appId":"4ca2dbeb-c4b1-4f58-b97d-f4f08dc0f971","version":0,"lastUpdated":1783745793017}}

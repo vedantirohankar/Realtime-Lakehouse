@@ -1,0 +1,38 @@
+# Spark and Delta generated data
+bronze/*
+silver/*
+gold/*
+delta/*
+
+# Keep folder structure
+!bronze/.gitkeep
+!silver/.gitkeep
+!gold/.gitkeep
+!delta/.gitkeep
+
+# Spark checkpoints and metadata
+**/checkpoint/
+**/checkpoints/
+**/_delta_log/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Generated data files
+*.parquet
+*.crc
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment and secrets
+.env
+
+# IDE and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

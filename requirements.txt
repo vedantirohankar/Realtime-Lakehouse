@@ -1,0 +1,5 @@
+kafka-python
+faker
+pandas
+delta-spark==3.2.0
+pyspark==3.5.8
